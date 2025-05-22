@@ -26,10 +26,10 @@ function Footer() {
               <a href="#" className="social-icon">
                 <FaInstagram />
               </a>
-              <a href="www.linkedin.com/in/kvignesh7" target='blank' className="social-icon">
+              <a href="https://www.linkedin.com/in/kvignesh7/" target='_blank' className="social-icon">
                 <FaLinkedinIn />
               </a>
-              <a href="https://github.com/vignesh-vs23"  target='blank' className="social-icon">
+              <a href="https://github.com/vignesh-vs23"  target='_blank' className="social-icon">
                 <FaGithub />
               </a>
             </div>
