@@ -1,0 +1,35 @@
+.skills-section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.skill-card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+}
+
+.progress {
+  height: 10px;
+  border-radius: 50px;
+  background-color: #eee;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, #8a2be2, #ff69b4);
+  transition: width 1s ease-in-out;
+  border-radius: 50px;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  border-bottom: 3px solid #8a2be2;
+  color: #8a2be2;
+  background: none;
+}
