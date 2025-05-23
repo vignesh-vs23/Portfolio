@@ -1,29 +1,32 @@
 import React, { useState } from 'react';
 import './Skills.css';
-
+import { FaReact,FaCss3Alt,FaHtml5,FaBootstrap,FaPython,FaGithub } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiDjango,SiMysql,SiPostman } from "react-icons/si";
+import { CiLink } from "react-icons/ci";
+import { DiResponsive } from "react-icons/di";
+import { VscVscode } from "react-icons/vsc";
+import { FcCommandLine } from "react-icons/fc";
 const skillsData = {
   Frontend: [
-    { name: 'React', level: 90, icon: '⚛️', tooltip: 'React JS' },
-    { name: 'JavaScript', level: 85, icon: '🟨', tooltip: 'JavaScript ES6+' },
-    { name: 'CSS3', level: 80, icon: '🎨', tooltip: 'Cascading Style Sheets' },
-    { name: 'HTML5', level: 95, icon: '📄', tooltip: 'HyperText Markup Language' },
-    { name: 'Bootstrap', level: 85, icon: '🅱️', tooltip: 'Bootstrap CSS Framework' },
+    { name: 'React', level: 90, icon: <FaReact />, tooltip: 'React JS' },
+    { name: 'JavaScript', level: 85, icon: <IoLogoJavascript />, tooltip: 'JavaScript ES6+' },
+    { name: 'CSS3', level: 80, icon: <FaCss3Alt />, tooltip: 'Cascading Style Sheets' },
+    { name: 'HTML5', level: 95, icon: <FaHtml5 />, tooltip: 'HyperText Markup Language' },
+    { name: 'Bootstrap', level: 85, icon: <FaBootstrap />, tooltip: 'Bootstrap CSS Framework' },
   ],
   Backend: [
-    { name: 'Python', level: 80, icon: '🌲', tooltip: 'Python Programming Language' },
-    { name: 'Django', level: 75, icon: '🚂', tooltip: 'Django framework' },
-    { name: 'MySQL', level: 70, icon: '🍃', tooltip: 'MySQL DataBase' },
-    { name: 'RESTful API', level: 85, icon: '🔗', tooltip: 'REST APIs' },
-    // { name: 'Firebase', level: 65, icon: '🔥', tooltip: 'Firebase backend' },
-    // { name: 'Authentication', level: 75, icon: '🔒', tooltip: 'JWT/Auth' }
+    {name:'Python', level: 90, icon: <FaPython />, tooltip: 'Python Programming Language'},
+    {name:'Django', level: 85, icon: <SiDjango />, tooltip: 'Django Web Framework'},
+    { name: 'MySQL', level: 70, icon: <SiMysql />, tooltip: 'MySQL DataBase' },
+    { name: 'RESTful API', level: 85, icon: <CiLink />, tooltip: 'REST APIs' },
   ],
   Tools: [
-    { name: 'Git & GitHub', level: 90, icon: '🐙', tooltip: 'Version control' },
-    { name: 'Command Line', level: 85, icon: '💻', tooltip: 'CLI Tools' },
-    // { name: 'CI/CD', level: 65, icon: '🔁', tooltip: 'Deployment pipelines' },
-    // { name: 'Agile/Scrum', level: 80, icon: '📋', tooltip: 'Project Management' },
-    { name: 'VS Code', level: 95, icon: '📝', tooltip: 'Code Editor' },
-    { name: 'Responsive Design', level: 85, icon: '📱', tooltip: 'Media Queries' }
+    { name: 'Git & GitHub', level: 90, icon: <FaGithub />, tooltip: 'Version control' },
+    { name: 'Command Line', level: 85, icon: <FcCommandLine />, tooltip: 'CLI Tools' },
+    { name: 'Postman', level: 80, icon: <SiPostman />, tooltip: 'API Testing' },
+    { name: 'VS Code', level: 95, icon: <VscVscode />, tooltip: 'Code Editor' },
+    { name: 'Responsive Design', level: 85, icon: <DiResponsive />, tooltip: 'Media Queries' }
   ]
 };
 
