@@ -62,7 +62,7 @@ function ProjectCard({ project }) {
             Close
           </Button>
           <Button variant="primary" href={project.link} target="_blank">
-            Visit Project
+            Visit GitHub 
           </Button>
         </Modal.Footer>
       </Modal>

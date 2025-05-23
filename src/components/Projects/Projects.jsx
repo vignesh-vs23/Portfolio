@@ -18,7 +18,7 @@ function Projects() {
       image: cricket,
       description: 'A fully responsive e-commerce platform for Cricket Club with product catalog, shopping cart, and secure checkout.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Django','MySQL'],
-      link: '#'
+      link: 'https://github.com/vignesh-vs23/Phoenix-Cricket-Club'
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ function Projects() {
       image: mobile,
       description: 'A fully responsive e-commerce website for Apple Brand Mobiles with product catalog, shopping cart, and secure checkout.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Django','MySQL'],
-      link: '#'
+      link: 'https://github.com/vignesh-vs23/Apple-Mobiles-Ecommerce-Website'
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ function Projects() {
       image: portfolio,
       description: 'A creative portfolio website with smooth animations and responsive design for a photographer.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-      link: '#'
+      link: 'https://github.com/vignesh-vs23/venkadesh-portfolio'
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ function Projects() {
       image: rechargeapp,
       description: 'A mobile and DTH recharge application with user-friendly interface and secure payment options.',
       technologies: ['React', 'Bootstrap'],
-      link: '#'
+      link: 'https://github.com/vignesh-vs23/Finnpays-Recharge-App'
     },
     {
       id: 5,
