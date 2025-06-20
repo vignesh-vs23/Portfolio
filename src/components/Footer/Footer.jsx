@@ -17,19 +17,19 @@ function Footer() {
               that deliver exceptional user experiences.
             </p>
             <div className="social-links">
-              <a href="#" className="social-icon">
+              <a href="#hero" className="social-icon">
                 <FaFacebookF />
               </a>
-              <a href="#" className="social-icon">
+              <a href="#hero" className="social-icon">
                 <FaTwitter />
               </a>
-              <a href="#" className="social-icon">
+              <a href="#hero" className="social-icon">
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/kvignesh7/" target='_blank' className="social-icon">
+              <a href="https://www.linkedin.com/in/kvignesh7/"  className="social-icon">
                 <FaLinkedinIn />
               </a>
-              <a href="https://github.com/vignesh-vs23"  target='_blank' className="social-icon">
+              <a href="https://github.com/vignesh-vs23"   className="social-icon">
                 <FaGithub />
               </a>
             </div>
