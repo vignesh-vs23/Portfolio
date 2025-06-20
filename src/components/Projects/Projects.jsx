@@ -3,40 +3,39 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
 import './Projects.css'
 import cricket from '../../assets/Images/cricket.jpg'
-import mobile from '../../assets/Images/mobile.jpg'
-import portfolio from '../../assets/Images/portfolio.jpg'
 import rechargeapp from '../../assets/Images/rechargeapp.png'
-import tourist from '../../assets/Images/tourist.jpg'
+import winpromotors from '../../assets/Images/winpromotors.png'
+import zedlogic from '../../assets/Images/zedlogic.png'
 function Projects() {
   const [filter, setFilter] = useState('all')
   
   const projects = [
     {
       id: 1,
+      title: 'WinPromotors Real Estate Website',
+      category: 'frontend',
+      image: winpromotors,
+      description: 'Win Promotors is a real estate website showcasing residential projects and property listings with user-friendly navigation.',
+      technologies: ['React', 'Bootstrap'],
+      link: 'https://www.winpromotors.in/'
+    },
+    {
+      id: 2,
+      title: 'ZedlogicSoliutions Portfolio Website',
+      category: 'frontend',
+      image: zedlogic,
+      description: 'A creative portfolio website with smooth animations and responsive design for a photographer.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+      link: 'https://www.zedlogicsolutions.com/'
+    },
+    {
+      id: 3,
       title: ' Cricket Club E-Commerce Website',
       category: 'fullstack',
       image: cricket,
       description: 'A fully responsive e-commerce platform for Cricket Club with product catalog, shopping cart, and secure checkout.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Django','MySQL'],
       link: 'https://github.com/vignesh-vs23/Phoenix-Cricket-Club'
-    },
-    {
-      id: 2,
-      title: 'Apple Brand Mobiles Website', 
-      category: 'fullstack',
-      image: mobile,
-      description: 'A fully responsive e-commerce website for Apple Brand Mobiles with product catalog, shopping cart, and secure checkout.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Django','MySQL'],
-      link: 'https://github.com/vignesh-vs23/Apple-Mobiles-Ecommerce-Website'
-    },
-    {
-      id: 3,
-      title: 'Portfolio Website',
-      category: 'frontend',
-      image: portfolio,
-      description: 'A creative portfolio website with smooth animations and responsive design for a photographer.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-      link: 'https://github.com/vignesh-vs23/venkadesh-portfolio'
     },
     {
       id: 4,
@@ -46,15 +45,6 @@ function Projects() {
       description: 'A mobile and DTH recharge application with user-friendly interface and secure payment options.',
       technologies: ['React', 'Bootstrap'],
       link: 'https://github.com/vignesh-vs23/Finnpays-Recharge-App'
-    },
-    {
-      id: 5,
-      title: 'Travel Booking Platform',
-      category: 'frontend',
-      image: tourist,
-      description: 'An online platform for booking hotels,Rooms and activities with user reviews and recommendations.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Django','MySQL'],
-      link: '#'
     },
     
   ]

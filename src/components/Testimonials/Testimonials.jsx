@@ -4,8 +4,8 @@ import Slider from 'react-slick'
 import './Testimonials.css'
 import muthu from '../../assets/Images/muthu.jpeg'
 import thangapandi from '../../assets/Images/thangapandi.jpg'
-import venkadesh from '../../assets/Images/venkadesh.jpeg'
-import hariharasudhan from '../../assets/Images/hari.jpeg'
+import venkat from '../../assets/Images/venkat.png'
+import hari from '../../assets/Images/hari.jpg'
 function Testimonials() {
   const sliderRef = useRef(null)
 
@@ -29,14 +29,14 @@ function Testimonials() {
       id: 3,
       name: 'Venkadesh',
       position: 'Wordpress Develper, Alagu Tech Solutions',
-      image: venkadesh,
+      image: venkat,
       quote: 'Working with this team was an absolute pleasure. They delivered our website on time and exceeded our expectations with their attention to detail and creative solutions.'
     },
     {
       id: 4,
       name: 'Hariharasudhan',
       position: 'React Js Developer, Cloudb software Solutions',
-      image: hariharasudhan,
+      image: hari,
       quote: 'The attention to detail and commitment to quality is apparent in every aspect of our project. I highly recommend their services to anyone looking for top-notch web development.'
     }
   ]
