@@ -4,7 +4,7 @@ import './Experience.css'
 function Experience() {
   const experiences = [
     {
-      position: 'Junior Software Developer',
+      position: 'Junior Web Developer',
       company: 'Alagu Tech Solutions',
       period: ' Jan 2025 - Present',
       description: 'Designed and developed responsive websites for various clients. Collaborated with UX designers to implement pixel-perfect designs and interactive elements.',
